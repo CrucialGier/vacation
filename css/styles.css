@@ -1,0 +1,132 @@
+
+
+body {
+  background-color: pink;
+}
+
+hr {
+  width: 1300px;
+}
+
+/* Header */
+
+.intro {
+  max-width: 1200px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-btn {
+  margin-left: 50px;
+  margin-top: 30px;
+  width: 60px;
+  height: 60px;
+  background-image: url("../img/icon.jpg");
+  background-size: cover;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: maroon;
+}
+
+.intro h1 {
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.intro h1 a {
+  color: maroon;
+  font-size: 30px;
+}
+
+.intro h1 a:hover {
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 0px maroon, -1px 0px maroon, 0px 1px maroon, 0px -1px maroon;
+}
+
+.intro .nav {
+  margin-left: 130px;
+  margin-top: 50px;
+}
+
+.nav a {
+  font-size: 18px;
+  color: maroon;
+}
+
+.nav .btn:hover {
+  color: white;
+  background-color: maroon;
+}
+
+
+/* Filler */
+
+.jumbotron {
+  height: 650px;
+  background-size: cover;
+  background-image: url("../img/barcelona-city.jpg");
+  margin-top: 20px;
+}
+
+.jumbotron .point {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.jumbotron .point > * {
+  color: maroon;
+}
+
+
+/* Filler 2 */
+
+.filler2 .row {
+  height: 400px;
+}
+
+.filler2 .row > * {
+  margin-top: 60px;
+}
+
+.filler2 img {
+  border-style: solid;
+  border-color: maroon;
+  border-width: 3px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.filler2 p {
+  margin-top: 10px;
+  color: maroon;
+  font-size: 22px;
+  font-family: cursive;
+}
+
+
+/* Footer */
+
+.footer {
+  background-color: maroon;
+  padding-top: 50px;
+}
+
+.footer img {
+  margin-right: 10px;
+  margin-bottom: 5px;
+  width: 50px;
+}
+
+.footer .container div > * {
+  color: white;
+  margin-bottom: 60px;
+  font-size: 20px;
+}
+
+.footer a:hover {
+  color: black;
+  text-decoration: none;
+}
