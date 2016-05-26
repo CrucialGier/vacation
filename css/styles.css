@@ -1,11 +1,14 @@
 
 
 body {
-  background-color: pink;
+  background-color: #ffe6f0;
 }
 
 hr {
   width: 1300px;
+  border-color: maroon;
+  border-style: inset;
+  border-width: 1px;
 }
 
 /* Header */
